@@ -5,6 +5,6 @@ if C in S:
  if C in M:
   print("Vowel")
  else:
-  print("Constant")
+  print("Consonant")
 else:
  print("invalid")
