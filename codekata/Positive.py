@@ -1,7 +1,7 @@
 N=float(input())
 if N>0:
- print("positive")
+ print("Positive")
 elif N==0:
- print("zero")
+ print("Zero")
 else:
- print("negative")
+ print("Negative")
