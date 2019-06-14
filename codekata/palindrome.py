@@ -7,6 +7,6 @@ while(A>0):
  A=A//10
 if(temp==reverse):
  print("yes")
- else:
+else:
   print("no")
  
