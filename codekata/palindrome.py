@@ -1,12 +1,10 @@
-A=int(input())
-temp=A
-reverse=0
-while(A>0):
- dig=A%10
- reverse=reverse*10+dig
- A=A//10
-if(temp==reverse):
- print("yes")
+N=int(input())
+if(N>1 and N<=1000):
+ for i in range(2,N):
+   if(N%i==0):
+    print('no')
+    break
+ else:
+   print('yes')
 else:
-  print("no")
- 
+ print('no')
