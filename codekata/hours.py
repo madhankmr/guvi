@@ -1,0 +1,5 @@
+x,y=map(int,input().split())
+a,b=map(int,input().split())
+c=abs(x-a)
+d=abs(y-b)
+print(c,d)
